@@ -11,4 +11,14 @@ package guerigeri;
 public class Caja {
     private int identificador;
     private Cinta cinta; // Será donde los clientes coloquen los productos
+
+    public Caja(int identificador, Cinta cinta) {
+        this.identificador = identificador;
+        this.cinta = cinta;
+    }
+    
+    
+    
+    
+    
 }

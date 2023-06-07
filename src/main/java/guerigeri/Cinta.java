@@ -13,6 +13,17 @@ import java.util.List;
  */
 public class Cinta {
     
+    private List<Productos> prod;
+
+    public Cinta(List<Productos> prod) {
+        for (Productos productos : prod) {
+            this.prod.add(productos);
+        }
+    }
+    
+    
+    
+    
     // Método para añadir productos
     public List<Productos> anadirProducto(Productos p){
         // List para añadir los productos
