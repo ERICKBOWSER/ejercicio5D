@@ -17,7 +17,16 @@ public class Caja {
         this.cinta = cinta;
     }
     
-    
+    public Ticket generarTicket(){
+        // Creamos el ticket pasandole el valor de la cinta
+        Ticket t = new Ticket(this.cinta);        
+        return t;
+    }
+
+    @Override
+    public String toString() {
+        return "Caja{" + "identificador=" + identificador + ", \ncinta=" + cinta + '}';
+    }
     
     
     
